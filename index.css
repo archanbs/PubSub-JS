@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+#movies-container {
+    background-color: #eaaeae;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: -webkit-fill-available;    
+}
+
+#actors-container {
+    background-color: #8ca9ae;
+    font-family: Verdana, Tahoma, sans-serif;
+    width: -webkit-fill-available;    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 10px;  
+    width: -webkit-fill-available;
+}
+
+#body-container {
+    display: flex;
+}
+
+aside {
+    padding-right: 1rem;
+    border-right: 2px solid #000;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+#movies-form {
+    background-color: #ee8da5;
+    padding: 10px;
+    width: inherit;
+}
+
+#actors-form {
+    background-color: #6fa384;
+    padding: 10px;
+    width: inherit;
+}
+
+ul, p {
+    text-align: left;
+}
